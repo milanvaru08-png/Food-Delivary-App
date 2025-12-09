@@ -31,7 +31,7 @@ const Stack = createNativeStackNavigator();
 
 export default function AppNavigation() {
   return (
-    <Stack.Navigator screenOptions={{ headerShown: false }} initialRouteName="MainTabs">
+    <Stack.Navigator screenOptions={{ headerShown: false }} initialRouteName="LoadingScreen">
       <Stack.Screen name="LoadingScreen" component={LoadingScreen} />
       <Stack.Screen name="WelcomeScreen" component={WelcomeScreen} />
       <Stack.Screen name="IntroScreen" component={IntroScreen} />
